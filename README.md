@@ -1,36 +1,36 @@
-# TypeScript Example
+# Purple Stock
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+Mobile app built-in React Native with Expo to serve as a stock control system.
 
-```sh
-npx create-react-native-app -t with-typescript
+## Images from Application
+![appimages file](images/image-1.jpeg)
+![appimages file](images/image-2.jpeg)
+![appimages file](images/image-3.jpeg)
+![appimages file](images/image-4.jpeg)
+
+## Installation
+
+```bash
+$ expo install
 ```
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
+## Running the app
 
-## 🚀 How to use
+```bash
+# Android
+$ yarn android
 
-#### Creating a new project
+# iOS
+$ yarn ios
+```
 
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `npx create-react-native-app -t with-typescript`
-- `cd` into the project
+## Environment
 
-### Adding TypeScript to existing projects
+- Node.js v12.18.4 LTS
+- React Native v4.13.0
+- Expo v3.27.13
+- Android/iOS Simulator
 
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `yarn start` or `npm run start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
+## License
 
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
-
-## 📝 Notes
-
-- [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
