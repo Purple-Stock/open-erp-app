@@ -24,12 +24,6 @@ $ yarn android
 $ yarn ios
 ```
 
-## Environment
-
-- Node.js v12.18.4 LTS
-- React Native v4.13.0
-- Expo v3.27.13
-- Android/iOS Simulator
 
 ## License
 
